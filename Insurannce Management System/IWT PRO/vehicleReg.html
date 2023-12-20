@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration2.css">
+</head>
+<body>
+    <div class="form-container vehicle-information">
+        <h3><u>VEHICLE INFORMATION</u></h3>
+        <form action="/action_page.php">
+            <label for="registrationBook">Upload Registration Book Image</label>
+            <input type="file" name="filename"><br>
+            <label for="VIN">Vehicle ID Number</label>
+            <input type="text" name="VIN" id="enterfield"><br>
+            <label for="yearMakeModel">Year/Make/Model</label>
+            <input type="text" name="year" id="enterfield"><br>
+            <label for="annualMileage">Annual Mileage</label>
+            <input type="text" name="year" id="enterfield"><br>
+            <label>Usage</label>
+            <input type="checkbox" name="business" value="business" id="checkbox">
+            <label class="checkbox-label" for="business">Business</label>
+            <input type="checkbox" name="carPool" value="car pool" id="checkbox">
+            <label class="checkbox-label" for="carPool">Car Pool</label>
+            <input type="checkbox" name="pleasure" value="pleasure" id="checkbox">
+            <label class="checkbox-label" for="pleasure">Pleasure</label>
+            <input type="checkbox" name="other" value="other" id="checkbox">
+            <label class="checkbox-label" for="other">Other</label><br>
+            <label>Anti-lock Brakes</label>
+            <input type="checkbox" name="none" value="none" id="checkbox">
+            <label class="checkbox-label" for="none">None</label>
+            <input type="checkbox" name="wheelStandard" value="wheelstandard" id="checkbox">
+            <label class="checkbox-label" for="wheelStandard">Wheel Standard</label>
+            <input type="checkbox" name="4wheel" value="4wheel" id="checkbox">
+            <label class="checkbox-label" for="4wheel">4 Wheel</label>
+            <input type="checkbox" name="aftermarket" value="aftermarket" id="checkbox">
+            <label class="checkbox-label" for="aftermarket">After Market</label><br>
+            <label>Air Bag</label>
+            <input type="checkbox" name="none" value="none" id="checkbox">
+            <label class="checkbox-label" for="none">None</label>
+            <input type="checkbox" name="Driverandpassenger" value="Driverandpassenger" id="checkbox">
+            <label class="checkbox-label" for="Driverandpassenger">Driver and Passenger</label>
+            <input type="checkbox" name="driver" value="driver" id="checkbox">
+            <label class="checkbox-label" for="driver">Driver</label><br>
+            <label for="type">Expected Insurance Type:</label>
+            <select name="type" id="type">
+                <option value="none"></option>
+                <option value="Thirdparty">Third Party</option>
+                <option value="fullinsurance">Full Insurance</option>
+            </select>
+        </form>
+ 
+</div>
+</body>
+</html>

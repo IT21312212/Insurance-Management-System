@@ -1,0 +1,148 @@
+/* Reset some default styles for better consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set font styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the header with a background color, padding, and text color */
+h1 {
+    color: #222020;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style each form container */
+.f1{
+    height: 800px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 30px; /* Adjusted for responsiveness */
+    margin-right:10px; /* Adjusted for responsiveness */
+    margin-top:60px;
+    margin-bottom: 80px;
+}
+
+.f2{
+    height: 800px;
+    width: 52%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 700px; /* Adjusted for responsiveness */
+    margin-right: 80px; /* Adjusted for responsiveness */
+    margin-top:-920px;
+    margin-bottom: 80px;
+    border-collapse: collapse;
+}
+
+/* Style form labels and input fields */
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.form-group input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+.form-group input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+/* Style the table */
+.f2 table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-right: 80px; /* Adjusted for responsiveness */
+}
+
+/* Style table headers */
+table th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style table rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style table cell content */
+table td {
+    padding: 8px;
+}
+
+/* Add some spacing to the bottom of each table */
+table {
+    margin-bottom: 20px;
+}
+
+
+/* Style the edit, update, and delete buttons */
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.button-group button#edit-button {
+    background-color: #007bff;
+}
+
+/* Show the update button when in edit mode */
+.edit-mode .button-group button#update-button {
+    display: inline-block;
+    background-color: #1aff00;
+
+}
+
+/* Style the delete button */
+.button-group button#delete-button {
+    background-color: #dc3545;
+}
+
+/* Hover effect on buttons */
+.button-group button:hover {
+    opacity: 0.8;
+}
